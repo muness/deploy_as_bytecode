@@ -14,7 +14,7 @@ require 'tasks/rails'
 task :war do
   `rm -rf tmp/war`
   `jrubyc app/models/*.rb app/controllers/*.rb`
-  `rm -f app/models/*.rb app/controllers/posts_controller.rb`
+  `rm -f app/models/*.rb app/controllers/*.rb`
   `warble`
   `git co .`
 end
