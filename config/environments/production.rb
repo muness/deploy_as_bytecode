@@ -26,5 +26,3 @@ config.action_view.cache_template_loading            = true
 
 # Enable threaded mode
 # config.threadsafe!
-
-config.logger = Logger.new("/Users/muness/work/oss/deploy_as_bytecode/log/production.log")
